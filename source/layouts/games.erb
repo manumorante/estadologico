@@ -1,0 +1,18 @@
+<% wrap_layout :layout do %>
+    <%= image_tag 'mini-atardecer.jpg' %>
+
+    <div id="sonic"><%= image_tag 'sonic.jpg', :alt => 'Juegos Flash' %></div>
+
+    <div id="cuerpo-juego">
+
+      <h1 class="titulo"><%= current_page.data.title %></h1>
+
+
+      <%= yield %>
+
+      <p><%= link_to 'Volver a Juegos', '/juegos.html' %></p>
+
+    </div>
+
+<% end %>
+

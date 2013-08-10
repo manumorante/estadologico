@@ -62,6 +62,7 @@ end
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+page 'juegos/*', :layout => :games
 #
 # A path which all have the same layout
 # with_layout :admin do
