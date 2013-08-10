@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+    <configuracion carpetasitio="" nombresitio="Admin" urlsitio="demo">
+      <idiomas default="esp">
+        <esp>Español</esp>
+      </idiomas>
+
+      <usuarios alfinal="1" nuevos="1" eliminar="1" editar="1" nombre="Gestión de Usuarios" portada="0" creador="1" buscar="1" nombretitulo="Nombre de usuario" cuerpo="text1" fecha="0" verenlace="0" nombrefecha="Fecha" fuente="0" nombrefuente="Fuente" nombreenlace="Enlace" ampliar="1" maxcarseccion="18" regporpag="10" regporpag_opt="4" foto="0" nombrefoto="Fotografía" icono="0" nombreicono="Miniatura" descripcion="">
+        <visor/>
+        <secciones activo="1"/>
+        <idioma nombre="esp"/>
+      </usuarios>
+
+      <conciertos iexplorer="0" sqlorden="R_FECHA" alfinal="0" nuevos="1" eliminar="1" editar="1" nombre="Conciertos" portada="0" creador="0" buscar="1" nombretitulo="Grupo(s) principal(es)" cuerpo="text1" fecha="1" verenlace="0" nombrefecha="Fecha" fuente="0" nombrefuente="Fuente" nombreenlace="Enlace" ampliar="1" maxcarseccion="18" regporpag="10" regporpag_opt="4" foto="1" nombrefoto="Fotografía" icono="0" nombreicono="Miniatura" descripcion="">
+        <visor />
+        <dato tipo="texto" campo="text1" titulo="Grupos invitados" nombrecorto="grupos_invitados"/>
+        <dato tipo="texto" campo="text3" titulo="Recinto" nombrecorto="recinto"/>
+        <dato tipo="texto" campo="text4" titulo="Lugar" nombrecorto="lugar"/>
+        <dato tipo="texto" campo="text5" titulo="Enlace comprar entrada" nombrecorto="compra_tu_entrada"/>
+		<dato titulo="Tipo de evento" campo="text6" nombrecorto="tipoevento" tipo="opcion">
+			<opcion titulo="Concierto" nombrecorto="concierto" valor="Concierto"/>
+			<opcion titulo="Festival" nombrecorto="festival" valor="Festival"/>
+		</dato>
+        <dato tipo="memo" campo="memo1" titulo="Notas" nombrecorto="notas"/>
+        <secciones activo="1"/>
+        <secciones2 activo="0"/>
+        <idioma nombre="esp"/>
+      </conciertos>
+
+    </configuracion>

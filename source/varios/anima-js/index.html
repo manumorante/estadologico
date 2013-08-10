@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin título</title>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #f5f5f5;
+}
+#box {
+	top:0px;
+	border: 1px solid #1D127D;
+	background: white;
+	color: black;
+	width:275px;
+	height:200px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+#cuerpo {
+	margin: auto;
+	width: 200px;
+}
+#boxbottom {position:absolute; border: 1px white;background: white; color: black;width:375px;height:70px;padding:10px;}
+#triki {color: white; position: relative; top:60px;}
+#coco {color: white;  position: relative; top:60px;}
+#elmo {color: white; position: relative; top:55px; }
+#texto1 {position:relative;top:25px;left:30px;color: black;}
+#texto2 {position:relative;top:25px;left:30px;color: black;}
+#texto3 {position:relative;top:25px;left:30px;color: black;}
+
+</style>
+<script language="javascript" type="text/javascript">
+var stop = true;
+var elmoarriba = true;
+var poselmo = 55;
+var trikiarriba = true;
+var postriki = 60;
+var cocoarriba = true;
+var poscoco = 60;
+var speed = 50;
+var tId = '';
+
+function pontriki(pos) {
+	var tio = this.document.getElementById("triki");
+	tio.style.top = pos+"px";
+}
+
+function ponelmo(pos) {
+	this.document.getElementById("elmo").style.top = pos+"px";
+}
+
+function poncoco(pos) {
+	this.document.getElementById("coco").style.top = pos+"px";
+}
+
+function botetriki() {
+	if (trikiarriba) {
+		postriki = postriki+1;
+	}else{
+		postriki = postriki-1;
+	}
+	if (postriki>100){
+		postriki = 100;
+		trikiarriba = false;
+	}else{
+		if (postriki<60){
+			postriki = 60;
+			trikiarriba = true;
+		}
+	}
+}
+
+function botecoco() {
+	if (cocoarriba){
+		poscoco = poscoco+1;
+	}else{
+		poscoco = poscoco-1;
+	}
+	if (poscoco>105){
+		poscoco = 105;
+		cocoarriba = false;
+	}else{
+		if (poscoco<60){
+			poscoco = 60;
+			cocoarriba = true;
+		}
+	}
+}
+
+function boteelmo(){ 
+	if (elmoarriba){
+		poselmo = poselmo+10;
+	}else{
+		poselmo = poselmo-10;
+	}
+	if (poselmo>105){
+		poselmo = 105;
+		elmoarriba = false;
+	}else{
+		if (poselmo<55){
+			poselmo = 55;
+			elmoarriba = true;
+		}
+	}
+}
+
+function pontexto(){
+	if (poscoco>90){
+		this.document.getElementById("texto3").style.display = "";
+		this.document.getElementById("elmo").style.display = "";
+		this.document.getElementById("texto1").style.display = "none";
+		this.document.getElementById("texto2").style.display = "none";
+	}else{
+		 if (poscoco>70){
+			 this.document.getElementById("texto2").style.display = "";
+			 this.document.getElementById("texto1").style.display = "none";
+			 this.document.getElementById("texto3").style.display = "none";
+			 this.document.getElementById("elmo").style.display = "none";
+		 }else{
+			if (poscoco>55){
+				this.document.getElementById("texto1").style.display = "";
+				this.document.getElementById("texto2").style.display = "none";
+				this.document.getElementById("texto3").style.display = "none";
+				this.document.getElementById("elmo").style.display = "none";
+			}else{
+			}
+		}
+	}
+}
+
+function animate() {
+	clearTimeout(tId);
+	if (stop) return;
+	// here goes your animation
+	pontriki(postriki);
+	poncoco(poscoco);
+	ponelmo(poselmo);
+	botetriki();
+	botecoco();
+	boteelmo();
+	pontexto();
+
+	tId = setTimeout('animate()',speed);
+}
+	animate()
+</script>
+</head>
+<body>
+<div id="cuerpo">
+	<div id="box">
+	<div id="texto1" style="display: none;"><p>Suave y azul</p></div>
+	<div id="texto2" style="display: none;"><p>Me gusta el suave y azul</p></div>
+	<div id="texto3" style="display: none;"><p>¡Y naranja!</p></div>
+	<img src="http://kharkoma.homelinux.com/blog/misc/coco.png" id="coco"/>
+	<img src="http://kharkoma.homelinux.com/blog/misc/triki.png" id="triki"/>
+	<img src="http://kharkoma.homelinux.com/blog/misc/elmo.png" id="elmo" style="display: none;"/>
+	</div>
+	<input type="button" value="Play" onclick="stop=!stop;animate(); if (stop) this.value='Play'; else this.value='Stop';return false"/>
+</div>
+</body>
+</html>

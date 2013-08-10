@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<paises>
+	<pais esp="España" alias="esp" fra="Espangne" deu="Espaniem">
+		<ciudad nombre="Madrid" id="01"/>
+		<ciudad nombre="Barcelona" id="02"/>
+	</pais>
+	<pais esp="Francia" alias="fra" fra="France" deu="Francha"/>
+</paises>

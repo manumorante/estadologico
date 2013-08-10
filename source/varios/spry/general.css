@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F4F3EF;
+}
+#main #persiana {
+	width: 100px;
+	border: 1px solid #CCCCCC;
+}
+
+th {
+	text-align: left;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 23px;
+	color: #999999;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 16px;
+	color: #0066CC;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-weight: normal;
+}
+#main {
+	width: 620px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 15px;
+	background-color: #FFFFFF;
+}
+.filaPar {
+	background-color: #E9E9E9;
+}
+.folaImpar {
+	background-color: #F7F7F7;
+}

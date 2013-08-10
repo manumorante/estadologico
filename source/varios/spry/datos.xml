@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<datos>
+	<clientes>
+		<cliente nombre="Manuel" apellidos="Morante Martínez" empresa="Estado Lógico" fecha="09/11/1980" />
+		<cliente nombre="Victoria" apellidos="López Molino" empresa="Uve Moda Joven" fecha="03/03/1979" />
+		<cliente nombre="Steve" apellidos="Jobs" empresa="Apple" fecha="24/02/1955" />
+		<cliente nombre="Kase" apellidos="O" empresa="Violadores del Verso" fecha="01/01/1980" />
+		<cliente nombre="Zatur" apellidos="Rey" empresa="SFDK" fecha="01/01/1980" />
+		<cliente nombre="Javier" apellidos="Morante" empresa="SFDK" fecha="01/01/1980" />
+	</clientes>
+</datos>

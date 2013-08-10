@@ -1,0 +1,166 @@
+<html><!-- InstanceBegin template="/Templates/Base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<META NAME="ROBOTS" CONTENT="All">
+<META HTTP-EQUIV="VW96.OBJECT TYPE" CONTENT="Homepage">
+<META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+<META NAME="DISTRIBUTION" CONTENT="Global">
+<META NAME="RATING" CONTENT="General">
+<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="Spanish">
+<META NAME="LANGUAGE" CONTENT="ES">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<META NAME="TITLE" CONTENT="Estado L&oacute;gico - Dise&ntilde;o y Programaci&oacute;n Web, Andaluc&iacute;a, Granada">
+<META NAME="OWNER" CONTENT="info@estadologico.com">
+<META NAME="AUTHOR" CONTENT="Manuel Morante Martinez">
+<META NAME="DESCRIPTION" CONTENT="Estado Lógico: Diseño de páginas web de alta calidad, diseño gráfico, animación y programas en Flash. Granada. Andalucía">
+<META NAME="KEYWORDS" CONTENT="Diseño de páginas Web, Programación ASP, Diseño Gráfico, Granada, Andalucía">
+<meta name="SEARCHTITLE" content="Diseño web, Granada" />
+
+<script src="../../js.js" language="javascript" type="text/javascript"></script>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Estado L&oacute;gico - Dise&ntilde;o y Programaci&oacute;n Web, Andaluc&iacute;a, Granada</title>
+<!-- InstanceEndEditable --><link rel="stylesheet" type="text/css" href="../../css.css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body bgcolor="D17B00" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td><table width="734" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td><table  border="0" cellspacing="0" cellpadding="8">
+            <tr>
+              <td><a href="/index.html"><img src="/arch/cabecera/Images/cabecera_05.jpg" alt="" width="233" height="50" border="0"></a></td>
+              <td valign="bottom"><span title="Diseño Web, Granada, Diseño Gráfico, Programación, Flash, ASP, Calidad, Económico "><font color="#999999">Dise&ntilde;o Web</font></span></td>
+            </tr>
+        </table>
+        </td>
+        <td width="268"><img src="/arch/cabecera/Images/cabecera_03.jpg" width="268" height="77" alt=""></td>
+      </tr>
+    </table>
+      <table width="734"  border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#FFFFFF">
+          <td><a href="/Portafolio/index.html"><img src="/arch/cabecera/Images/cabecera_07.jpg" alt="Trabajos realizados" width="160" height="64" border="0"></a></td>
+          <td><a href="/Juegos/index.html"><img src="/arch/cabecera/Images/cabecera_08.jpg" alt="Ejemplos de juegos Flash" width="160" height="64" border="0"></a></td>
+          <td><a href="/Contacto/index.html"><img src="/arch/cabecera/Images/cabecera_09.jpg" alt="Contacto" width="160" height="64" border="0"></a></td>
+          <td width="254" height="64" align="right" valign="bottom" background="/arch/cabecera/Images/cabecera_10.jpg">&nbsp;</td>
+        </tr>
+        <tr bgcolor="#F78D20">
+          <td height="14" colspan="4"><img src="/arch/cabecera/Images/cabecera_11.jpg" width="734" height="14" alt=""></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td valign="top"><!-- InstanceBeginEditable name="Centro" -->
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" bgcolor="#FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="10">
+            <tr>
+              <td><span class="titulo">Ping Pong</span><br>
+                  <br>
+                  <img src="pingpong.jpg" width="120" height="90" border="1"><br>
+                  <br>
+                  <b>Objetivo</b>:<br>
+      Encajar &quot;goles&quot; al contrario.<br>
+      Este juego est&aacute; preparado para dos jugadores.<br>
+      <br>
+      <b>Controles</b>: <br>
+      <b>Arriba</b> y <b>Abajo</b>: Controlan la pala derecha.<br>
+      <b>Izquierda</b> / <b>Derecha</b>: Recude / Aumenta velocidad. <br>
+      <br>
+      <b>W</b> y <b>S</b>: Controlan la pala izquierda.<br>
+      <b>A</b> /<b> D</b>: Recude / Aumenta velocidad.<br>
+      <br>
+      <br>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td><a href="/Juegos/index.html">&lt;&lt; Volver a Juegos</a></td>
+          <td align="right"><a href="Ping_Pong_Juegos_Estado_Logico.html" target="_blank"><img src="../jugar.gif" alt="Jugar a Ping pong" width="58" height="25" border="0"></a></td>
+        </tr>
+    </table></td>
+            </tr>
+          </table></td>
+          <td width="170" align="right" valign="top"><!-- #BeginLibraryItem "/Library/Ejemplos.lbi" --><table width="170" height="472" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td colspan="3"><img src="/arch/ejemplos/Images/ejemplo_01.jpg" width="170" height="23" alt=""></td>
+            </tr>
+            <tr>
+              <td rowspan="6"><img src="/arch/ejemplos/Images/ejemplo_02.jpg" width="24" height="449" alt=""></td>
+              <td><img src="/arch/ejemplos/Images/ejemplo_03.jpg" width="123" height="32" alt=""></td>
+              <td rowspan="6"><img src="/arch/ejemplos/Images/ejemplo_04.jpg" width="23" height="449" alt=""></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.uvemoda.com" target="_blank"><img src="/arch/ejemplos/Images/ejemplo_05.jpg" alt="uvemoda.com" width="123" height="97" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.doble-filo.com" target="_blank"><img src="/arch/ejemplos/Images/ejemplo_06.jpg" alt="doble-filo.com" width="123" height="96" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.dreworks.com" target="_blank"><img src="/arch/ejemplos/Images/ejemplo_07.jpg" alt="dreworks.com" width="123" height="96" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.tradepunk.com" target="_blank"><img src="/arch/ejemplos/Images/ejemplo_08.jpg" alt="tradepunk.com" width="123" height="97" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><img src="/arch/ejemplos/Images/ejemplo_09.jpg" width="123" height="31" alt=""></td>
+            </tr>
+          </table><!-- #EndLibraryItem --></td>
+        </tr>
+		</table>
+	  <!-- InstanceEndEditable -->
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+	<br>
+	<form name="form1" method="post" action="/admin/usuarios/validar.asp">
+	<table width="100%"  border="0" cellspacing="0" cellpadding="10">
+      <tr bgcolor="#DFF1F7">
+        <td bgcolor="#DFF1F7"><span class="mini"><a href="/Portafolio/index.html">Portafolio</a> <font color="#32A4C9">|</font> <a href="/Juegos/index.html">Juegos</a> <font color="#32A4C9">|</font> <a href="/Contacto/index.html">Contacto</a> <font color="#32A4C9">|</font> <a href="/Nosotros/index.html">Nosotros</a> <font color="#32A4C9">|</font> <a href="/avisolegal/index.html">Aviso legal</a> <font color="#32A4C9">|</font> <a href="/Privacidad/index.html">Privacidad</a>          <br>
+&copy; 2004 Estado L&oacute;gico</span></td>
+        <td align="right">
+          <table  border="0" cellspacing="0" cellpadding="1">
+		  <tr>
+		  <td align="left"><span class="miniGris">Usuario</span></td>
+		  <td align="left"><input name="usuario" type="text" class="campoEntrar" id="usuario" size="15" maxlength="50"></td>
+		  <td align="left"><span class="miniGris">Clave</span></td>
+		  <td align="left"><input name="clave" type="password" class="campoEntrar" id="clave" size="15" maxlength="50"></td>
+		  <td align="left" valign="middle"><input name="imageField" type="image" src="/arch/ir.gif" width="18" height="14" border="0"></td>
+		  </tr>
+          </table>
+		</td>
+      </tr>
+    </table>
+	</form>
+    <table  border="0" cellspacing="0" cellpadding="4">
+      <tr>
+        <td><a href="http://www.macromedia.com/go/getflashplayer_es" target="_blank"><img src="/arch/GetFlashPlayer.gif" alt="Pare ver correctamente esta Web obtenga FlashPlayer " width="88" height="31" border="0"></a></td>
+        <td><img src="/arch/logo_windows.gif" width="39" height="33"></td>
+        <td><table  border="0" cellpadding="0" cellspacing="0" class="invisible" id="tabla_stad">
+          <tr>
+            <td align="center"><!-- Title: Estado L&oacute;gico -->
+                <!-- URL: http://www.estadologico.com/ -->
+                <script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js"></script>
+                <script language="JavaScript" type="text/javascript" >
+<!--
+	nedstatbasic("ACZMOwiGi3IaM7AurIJivbtzx2hg", 0);
+// -->
+          </script>
+                <noscript>
+                <a target="_blank" href="http://www.nedstatbasic.net/stats?ACZMOwiGi3IaM7AurIJivbtzx2hg"><img src="http://m1.nedstatbasic.net/n?id=ACZMOwiGi3IaM7AurIJivbtzx2hg" border="0" width="18" height="18" alt=""></a>
+                </noscript>
+                <!-- End Nedstat Basic code --></td>
+          </tr>
+        </table></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <br></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

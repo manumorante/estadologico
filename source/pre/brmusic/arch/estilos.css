@@ -1,0 +1,142 @@
+/* CSS Document */
+
+A.blanco:visited {
+	color:#ffffff;
+} 
+td {
+	font-family: Tahoma;
+	color: #594700;
+	font-size: 14px;
+}
+h3 {
+	color: #9E4837;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+A.blanco:active {
+	color:#ffffff;
+} 
+A.blanco:link {
+	color:#ffffff;
+} 
+A.email:hover {
+	color: #594700;
+	text-decoration: none;
+}
+
+A.email:active {
+	color:#594700;
+	text-decoration: none;
+} 
+A.email:link {
+	color:#594700;
+	text-decoration: none;
+} 
+A.email:hover {
+	color: #594700;
+}
+
+.datos-concierto {
+	color: #9E4837;
+	font-weight: bold;
+	font-size: 10px;
+}
+.titulo-seccion {
+	font-size: 20px;
+	color: #630708;
+	clear: both;
+	float: none;
+	display: block;
+}
+.campo {
+	background-color: #FBF9EE;
+	border: 1px solid #E1D097;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.carea {
+	background-color: #FBF9EE;
+	border: 1px solid #E1D097;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#galeria-eventos #anos {
+	background-color: #EDE3C0;
+	display: block;
+	padding: 3px;
+	clear: both;
+	margin-bottom: 10px;
+	border: 1px solid #FFFFFF;
+}
+#galeria-eventos #anos a {
+	color: #541001;
+	text-decoration: none;
+	background-color: #F1EACD;
+	padding: 3px;
+	margin-right: 4px;
+}
+#galeria-eventos #anos a:hover {
+	background-color: #FFF;
+}
+
+#galeria-eventos .corte-ano {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #BFB592;
+	background-color: #400C01;
+	display: block;
+	clear: both;
+	margin-bottom: 15px;
+	overflow: hidden;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+#galeria-eventos .corte-festival {
+	display: block;
+	clear: both;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	overflow: hidden;
+	padding: 5px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+#galeria-eventos .evento {
+	display: block;
+	float: left;
+	width: 150px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	height: 300px;
+}
+#galeria-eventos .evento .datos {
+	padding: 5px;
+}
+
+#galeria-eventos .evento .foto {
+	border: 1px solid #350000;
+	height: 150px;
+	width: 150px;
+}
+#galeria-eventos .titulo-evento {
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+#galeria-eventos .evento .tit-recinto,
+#galeria-eventos .evento .tit-lugar {
+	font-size: 12px;
+	font-weight: normal;
+	color: #660000;
+}

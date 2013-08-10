@@ -26,9 +26,6 @@ end
 # Build-specific configuration
 configure :build do
 
-  # Enable cache buster
-  activate :asset_hash
-
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -44,6 +41,9 @@ configure :build do
   ignore 'css/modules/*'
   ignore 'css/pages/*'
   ignore 'css/mixins/*'
+
+  # Enable cache buster
+  # activate :asset_hash
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
@@ -75,6 +75,9 @@ end
 ###
 # Helpers
 ###
+
+#require 'source/helpers/application_helper'
+#helpers ApplicationHelper
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
