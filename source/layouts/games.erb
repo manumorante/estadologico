@@ -1,12 +1,10 @@
 <% wrap_layout :layout do %>
-    <%= image_tag 'mini-atardecer.jpg' %>
 
-    <div id="sonic"><%= image_tag 'sonic.jpg', :alt => 'Juegos Flash' %></div>
+    <div id="sonic"><%= link_to image_tag('sonic.jpg', :alt => 'Juegos Flash'), '/juegos.html' %></div>
 
     <div id="cuerpo-juego">
 
       <h1 class="titulo"><%= current_page.data.title %></h1>
-
 
       <%= yield %>
 
