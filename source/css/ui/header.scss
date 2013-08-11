@@ -1,0 +1,34 @@
+// =========
+// HEADER
+// =========
+
+
+.page--header {
+  width: 100%;
+  height: 131px;
+  padding: 0.7em 1.5em;
+
+  background: image-url('header.png') repeat-x top center;
+  background-size: 100% 131px;
+
+  h1,
+  h2 {
+    display: inline;
+    font-size: $h3-size;
+    text-transform: lowercase;
+    letter-spacing: .02em;
+    font-family: 'Nunito';
+    font-weight: 400;
+  }
+
+  h1 a {
+    color: #FFFFFF;
+    word-spacing: -0.29em;
+    margin-right: .5em;
+    text-decoration: none;
+  }
+  h2 {
+    color: $brand-color-3;
+    word-spacing: -0.1em;
+  }
+}

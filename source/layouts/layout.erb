@@ -1,17 +1,18 @@
 <!doctype html>
 <html class="<%= page_classes %>">
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
   <title><%= current_page.data.title || "SIN TÍTULO!!" %></title>
 
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <%= google_font 'Nunito:400,700','css' %>
 
   <%= stylesheet_link_tag 'application' %>
-  <%= javascript_include_tag  'swfobject/swfobject.js' %>
+  <%= javascript_include_tag 'swfobject/swfobject.js' %>
 
   <link rel="shortcut icon" href="/icon.png">
   <link rel="apple-touch-icon-precomposed" href="/icon.png">
@@ -21,24 +22,33 @@
 </head>
 <body>
 
-<div id="contenido">
+<div class="content">
 
-  <div id="cabecera">
-    <%= link_to image_tag('cabecera-10.jpg'),'/' %>
-  </div>
-  <div id="cuerpo">
+  <header class="page--header">
+    <h1><%= link_to 'Estado Lógico', '/' %></h1>
+    <h2>Diseño web y programación</h2>
+  </header>
+
+
+  <section class="page-body" >
     <%= yield %>
-  </div>
+  </section>
 
-  <div id="pie">
-    <ul>
-      <li><%= link_to 'Portafolio','portafolio.html' %></li>
-      <li><%= link_to 'Juegos','juegos.html' %></li>
-      <li><%= link_to 'Contacto','contacto.html' %></li>
-    </ul>
 
-    <p>&copy; Desde 2001 hasta hoy ;-)</p>
-  </div>
+  <footer class="page-footer">
+
+    <nav>
+      <ul>
+        <li><%= link_to 'Portafolio', 'portafolio.html' %></li>
+        <li><%= link_to 'Juegos', 'juegos.html' %></li>
+        <li><%= link_to 'Contacto', 'contacto.html' %></li>
+      </ul>
+    </nav>
+
+    <p class="page-copy">&copy; Desde 2001 hasta hoy ;-)</p>
+
+  </footer>
+
 
 </div>
 </body>

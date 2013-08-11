@@ -2,19 +2,27 @@
 title: Inicio
 ---
 
-<div id="superior">
+<div class="home--cover">
+  <div class="home--cover--info">
 
-  <div id="descripcion">
-    <p>Servicios de <strong>Diseño Web</strong><br />
-      y <strong>Programación</strong>.</p>
-  </div>
+    <h2 class="home__title">
+      Servicios de <strong>Diseño Web</strong> y <strong>Programación</strong>.
+    </h2>
 
-  <div id="sint">
-    <p>Su información.<br />
-      Nuestra tecnología.</p>
+    <p class="home--slogan">Su información. Nuestra tecnología.</p>
+
+    <%= link_to 'Ver portafolio', 'portafolio.html', :class => 'btn' %>
+
   </div>
 </div>
 
-<%= link_to image_tag('tranvia-estadologico.jpg'), 'portafolio.html' %>
-
-<p class="pie-portada"> &#8220;El diseño web no solo aporta a la comunicación textual (contenidos) existente en Internet una faceta visual, sino que obliga a pensar una mejor estructuración de los mismos en un nuevo soporte. La unión de un buen diseñ´ con una jerarquía bien elaborada de contenidos aumenta la eficiencia de la web como canal de comunicación e intercambio de datos, que brinda posibilidades como el contacto directo entre el productor y el consumidor de contenidos, característica destacable del medio Internet.&#8221; &#8212; Wikipedia</p>
+<div class="home--footer">
+  <p> &#8220;El diseño web no solo aporta a la comunicación textual (contenidos) existente en Internet
+    una faceta visual, sino que obliga a pensar una mejor estructuración de los mismos en un nuevo soporte. La unión de
+    un
+    buen diseñ´ con una jerarquía bien elaborada de contenidos aumenta la eficiencia de la web como canal de
+    comunicación
+    e intercambio de datos, que brinda posibilidades como el contacto directo entre el productor y el consumidor de
+    contenidos, característica destacable del medio Internet.&#8221;</p>
+  &#8212; Wikipedia
+</div>

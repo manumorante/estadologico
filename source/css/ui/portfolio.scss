@@ -1,0 +1,157 @@
+// ===========
+// PORTFOLIO
+// ===========
+
+
+.portfolio {
+  padding: 8%;
+
+}
+.portfolio--item {
+  padding: 6%;
+  margin-bottom: 12%;
+
+  background-color: lighten($brand-color-2,70%);
+  @include vendor(transition, all .5s);
+  @include vendor(box-shadow, 0 0 1px #FFF);
+
+
+  &:hover{
+    background-color: #FFF;
+    @include vendor(transition, all .5s);
+    @include vendor(box-shadow, 0 0 5px #BBB);
+  }
+
+  .portfolio--image{
+    display: block;
+    width: 100%;
+    margin-bottom: .2em;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .portfolio--title  {
+    color: darken($brand-color,2%);
+    font-family: $brand-face;
+    font-size: $h5-size;
+    margin-bottom: .2em;
+    text-decoration: none;
+  }
+  &:hover .portfolio--title{
+    text-decoration: underline;
+  }
+
+  .portfolio--description{
+    font-size: $h6-size;
+  }
+  &:hover .portfolio--description{
+    color: #333;
+  }
+}
+
+//#minis {
+//  width: 220px;
+//  float: right;
+//  background-color: #F3F3F3;
+//  padding: 25px;
+//  border: 1px solid #E8E8E8;
+//
+//  h2 {
+//    color: #DF710F;
+//    padding-bottom: 10px;
+//  }
+//}
+//
+//#webs {
+//  width: 410px;
+//  display: block;
+//  float: left;
+//  padding-top: 25px;
+//  padding-right: 25px;
+//  padding-bottom: 15px;
+//  padding-left: 25px;
+//
+//  div {
+//    width: 130px;
+//    float: left;
+//    height: 215px;
+//  }
+//
+//  img {
+//    background-image: image-url('bg_ico_web.jpg');
+//    background-repeat: no-repeat;
+//    background-position: center center;
+//    padding: 7px;
+//  }
+//
+//  h2 {
+//    color: #DF710F;
+//    padding-bottom: 10px;
+//  }
+//
+//  h3 {
+//    color: #6094DC;
+//    font-weight: normal;
+//    padding-top: 2px;
+//    padding-left: 8px;
+//  }
+//
+//  h5 {
+//    font-weight: normal;
+//    color: #848484;
+//    padding-top: 2px;
+//    padding-left: 8px;
+//  }
+//
+//  a {
+//    color: #316AC5;
+//  }
+//}
+
+//#minis-portafolio {
+//  width: 190px;
+//  padding: 20px;
+//  display: block;
+//  float: right;
+//
+//  h2 {
+//    color: #DF710F;
+//    padding-bottom: 10px;
+//    font-weight: normal;
+//  }
+//
+//  div {
+//    float: left;
+//    width: 180px;
+//    height: 80px;
+//    margin-right: 5px;
+//    margin-bottom: 5px;
+//    overflow: hidden;
+//  }
+//
+//  img {
+//    background-image: image-url('bg_mini.jpg');
+//    background-repeat: no-repeat;
+//    background-position: center center;
+//    padding: 9px;
+//    float: left;
+//  }
+//
+//  p {
+//    font-weight: normal;
+//    float: left;
+//    padding-left: 5px;
+//    color: #666666;
+//  }
+//
+//  strong {
+//    font-weight: bold;
+//    float: left;
+//    width: 90px;
+//    color: #316AC5;
+//    margin-top: 12px;
+//  }
+//}

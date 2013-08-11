@@ -1,0 +1,46 @@
+//======
+// HOME
+//======
+
+.home--cover{
+  width: 100%;
+  height: 372px;
+  background: image-url('tranvia-estadologico.jpg') center center no-repeat;
+  background-size: 100%;
+}
+
+.home--cover{
+  .home--cover--info{
+    background-color: rgba(255,255,255,.5);
+    padding: 5% 7% 5% 7%;
+    width: 40%;
+
+    h2,
+    .btn{
+      font-family: $brand-face;
+      line-height: 0.9em;
+      margin-bottom: .2em;
+      font-weight: 400;
+    }
+
+    .home--slogan {
+      margin-bottom: .2em;
+
+      font-family: $brand-face;
+      font-weight: 400;
+      font-style: italic;
+      color: #DC7415;
+    }
+
+    .btn{
+      padding: 0.4em .8em;
+      font-size: .8em;
+      color: #FFF;
+      background-color: $brand-color-2;
+      text-decoration: none;
+      &:hover{
+        background-color: darken($brand-color-2, 9%);
+      }
+    }
+  }
+}

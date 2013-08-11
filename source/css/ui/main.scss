@@ -1,0 +1,181 @@
+// ======
+// MAIN
+// ======
+
+html, body {
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  background-color: #2A3C50;
+  color: #666666;
+}
+
+.page-title {
+  color: $brand-color;
+  padding-bottom: 10px;
+  font-family: $brand-face;
+  font-weight: normal;
+}
+
+.titulo {
+  margin-bottom: 10px;
+  color: #316AC5;
+  font-weight: normal;
+}
+
+.home--footer {
+  padding: 30px;
+  background-color: #000;
+
+  color: #999;
+  font-size: 12px;
+  font-style: italic;
+
+}
+
+.page-body{
+  background-color: #FFFFFF;
+  @extend .cf;
+}
+
+.content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#menu {
+  width: 728px;
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  background-color: #A93F15;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #923512;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #CD4B1B;
+
+  li {
+    display: inline;
+  }
+  a {
+    text-decoration: none;
+    color: #B1CADA;
+    font-weight: normal;
+    font-family: Tahoma;
+    background-color: #32445A;
+    margin-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  a:hover {
+    background-color: #496485;
+    color: #FFFFFF;
+
+  }
+}
+
+// Helpers
+.izquierda {
+  float: left;
+}
+
+.derecha {
+  float: right;
+}
+
+#juegos-lista {
+  width: 150px;
+  float: left;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #C66F12;
+    display: block;
+    border: 1px solid #EBE7D8;
+    height: 10px;
+    padding: 5px;
+  }
+
+  li {
+    margin-bottom: 2px;
+  }
+
+  a:hover {
+    color: #000000;
+    background-color: #F3F1E9;
+  }
+}
+
+#juegos-texto {
+  float: left;
+  padding-top: 35px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  width: 300px;
+}
+
+#sonic {
+  float: left;
+}
+
+#cuerpo-juego {
+  float: left;
+  width: 677px;
+  padding: 25px;
+
+  img {
+    padding: 6px;
+  }
+}
+
+#descripcion-juego {
+  padding: 10px;
+  background-color: #F8F8F8;
+  margin: 8px;
+  width: 300px;
+  border: 1px dashed #999999;
+}
+
+#base {
+  width: 674px;
+  clear: both;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+
+  p {
+    font-style: italic;
+    color: #333333;
+  }
+}
+
+#mascosas {
+  float: left;
+  width: 220px;
+  padding: 25px;
+  background-color: #DF710F;
+  text-align: center;
+
+  a {
+    font-weight: normal;
+    color: #EAEAEA;
+    text-decoration: none;
+  }
+
+  strong {
+    font-weight: bold;
+    color: #F7F7F7;
+  }
+}

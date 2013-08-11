@@ -15,24 +15,19 @@ set :relative_links, true
 compass_config do |config|
 
   # DEBUG MODE
-  #config.sass_options = { :debug => true, :debug_info => true, :line_comments => false }
+  config.sass_options = { :debug => true, :debug_info => true, :line_comments => false }
 
   # BUILD MODE
-  config.output_style = :compressed
-  config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
+  #config.output_style = :compressed
+  #config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
 
 end
 
 # Build-specific configuration
 configure :build do
 
-  # For example, change the Compass output style for deployment
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript
-
-  # Use relative URLs
+  #activate :minify_css
+  #activate :minify_javascript
   activate :relative_assets
 
 
@@ -77,8 +72,8 @@ page 'juegos/*', :layout => :games
 # Helpers
 ###
 
-#require 'source/helpers/application_helper'
-#helpers ApplicationHelper
+require 'source/helpers/application_helper'
+helpers ApplicationHelper
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
