@@ -36,6 +36,9 @@ configure :build do
   ignore 'css/inuit.css/*'
   ignore 'css/ui/*'
   ignore 'css/_vars.scss'
+  ignore 'helpers/*'
+  ignore 'google8bf3c9fc8b715318.html'
+
 
 
   # Enable cache buster
