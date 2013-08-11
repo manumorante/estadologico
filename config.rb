@@ -5,7 +5,7 @@
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'img'
-set :fonts_dir, 'fonts'
+#set :fonts_dir, 'fonts'
 set :relative_links, true
 
 ###
@@ -15,10 +15,10 @@ set :relative_links, true
 compass_config do |config|
 
   # DEBUG MODE
-  config.sass_options = { :debug => true, :debug_info => true, :line_comments => false }
+  #config.sass_options = { :debug => true, :debug_info => true, :line_comments => false }
 
   # BUILD MODE
-  #config.output_style = :compressed
+  config.output_style = :compressed
   #config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
 
 end
@@ -26,19 +26,20 @@ end
 # Build-specific configuration
 configure :build do
 
-  #activate :minify_css
-  #activate :minify_javascript
+  activate :minify_css
+  activate :minify_javascript
   activate :relative_assets
+  activate :directory_indexes
 
 
   # Ignore CSS includes
-  ignore 'css/vendor/*'
-  ignore 'css/modules/*'
-  ignore 'css/pages/*'
-  ignore 'css/mixins/*'
+  ignore 'css/inuit.css/*'
+  ignore 'css/ui/*'
+  ignore 'css/_vars.scss'
+
 
   # Enable cache buster
-  # activate :asset_hash
+  #activate :asset_hash
 
   # Or use a different image path
   # set :http_path, "/Content/images/"

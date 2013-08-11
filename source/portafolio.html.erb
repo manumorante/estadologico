@@ -3,47 +3,37 @@ title: Portafolio
 ---
 
 <div class="portfolio">
-    <ol class="grid"><!--
+  <div class="grid  grid--full"><!--
 
-    --><li class="grid__item  one-third">
-      <%= partial 'layouts/_portfolio_item', :locals => {
+    --><%= partial 'layouts/_portfolio_item', :locals => {
               :title        => 'La Red Social',
               :url          => 'http://www.laredsocial.org/',
               :image        => 'webs/laredsocial.jpg',
-              :description  => 'Ayuda y tutoriales en video sobre redes sociales, Facebook, Tuenti, MySpace, Windows Live, ...'} %>
-    </li><!--
+              :description  => 'Ayuda y tutoriales en video sobre redes sociales, Facebook, Tuenti, MySpace, Windows Live, ...'} %><!--
 
-    --><li class="grid__item  one-third">
-      <%= partial 'layouts/_portfolio_item', :locals => {
+    --><%= partial 'layouts/_portfolio_item', :locals => {
               :title        => 'Formas Formación',
               :url          => 'http://www.formasformacion.com/',
-              :image        => 'webs/mas-que-formacion.jpg',
-              :description  => 'Formación presencial y distancia. Prácticas en Centros Concertados y Bolsa de Trabajo Activa.'} %>
-    </li><!--
+              :image        => 'webs/formasformacion.jpg',
+              :description  => 'Formación presencial y distancia. Prácticas en Centros Concertados y Bolsa de Trabajo Activa.'} %><!--
 
-    --><li class="grid__item  one-third">
-      <%= partial 'layouts/_portfolio_item', :locals => {
+    --><%= partial 'layouts/_portfolio_item', :locals => {
               :title        => 'Una Vez Fuí',
               :url          => 'http://www.unavezfui.com/',
               :image        => 'webs/unavezfui.jpg',
-              :description  => 'Ayuda, videos y noticias sobre cosicas modernas de internet.'} %>
-    </li><!--
+              :description  => 'Ayuda, videos y noticias sobre cosicas modernas de internet.'} %><!--
 
-    --><li class="grid__item  one-third">
-      <%= partial 'layouts/_portfolio_item', :locals => {
+    --><%= partial 'layouts/_portfolio_item', :locals => {
               :title        => 'Fernsehschoner Project',
               :url          => 'http://www.fernsehschoner.de/',
-              :image        => 'webs/FERSEHSCHONER.jpg',
-              :description  => 'Sitio Flash  para <strong>Gregor Kuschmir, </strong><em>media-artist</em> de la  empresa de creativos <a href="http://www.fabrica.it/" target="_blank">La Fábrica</a>.'} %>
-    </li><!--
+              :image        => 'webs/fersehschoner.jpg',
+              :description  => 'Sitio Flash  para <strong>Gregor Kuschmir, </strong><em>media-artist</em> de la  empresa de creativos <a href="http://www.fabrica.it/" target="_blank">La Fábrica</a>.'} %><!--
 
-    --><li class="grid__item  one-third">
-      <%= partial 'layouts/_portfolio_item', :locals => {
+    --><%= partial 'layouts/_portfolio_item', :locals => {
               :title        => 'Trade Punk',
               :url          => 'http://www.tradepunk.com/',
               :image        => 'webs/tradepunk.jpg',
-              :description  => 'Web oficial del grupo  Trade Punk. Granada.'} %>
-    </li><!--
+              :description  => 'Web oficial del grupo  Trade Punk. Granada.'} %><!--
 
-    --></ol>
+    --></div>
 </div>

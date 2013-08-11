@@ -6,7 +6,9 @@
 .page--header {
   width: 100%;
   height: 131px;
-  padding: 0.7em 1.5em;
+
+  padding: 1.3em 1.5em;
+  @include media-query('palm'){ padding: 1.2em 1.2em; }
 
   background: image-url('header.png') repeat-x top center;
   background-size: 100% 131px;
@@ -14,11 +16,16 @@
   h1,
   h2 {
     display: inline;
+
     font-size: $h3-size;
+    @include media-query('palm'){ display: block;  }
+
+
     text-transform: lowercase;
     letter-spacing: .02em;
     font-family: 'Nunito';
     font-weight: 400;
+    line-height: .2em;
   }
 
   h1 a {
@@ -30,5 +37,8 @@
   h2 {
     color: $brand-color-3;
     word-spacing: -0.1em;
+    white-space: nowrap;
+    font-size: $h3-size;
+    @include media-query('palm'){ font-size: $h4-size;  }
   }
 }

@@ -2,6 +2,9 @@
 // MAIN
 // ======
 
+@import "../_vars";
+@import "../inuit.css/generic/_mixins.scss";
+
 html, body {
   font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
   background-color: #2A3C50;
@@ -37,8 +40,8 @@ html, body {
 }
 
 .content {
-  width: 900px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 #menu {

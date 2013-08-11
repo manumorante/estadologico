@@ -1,1 +1,0 @@
-<%response.Redirect("usuarios/validar.asp?"& request.QueryString())%>

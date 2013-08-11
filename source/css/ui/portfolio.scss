@@ -2,10 +2,12 @@
 // PORTFOLIO
 // ===========
 
+@import "../_vars";
+@import "../inuit.css/generic/_mixins.scss";
+
 
 .portfolio {
-  padding: 8%;
-
+  padding: 4%;
 }
 .portfolio--item {
   padding: 6%;
