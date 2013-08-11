@@ -9,6 +9,12 @@
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+  <link rel="apple-touch-icon" href="/estadologico-57.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/estadologico-114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/estadologico-72.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
   <%= google_font 'Nunito:400,700','css' %>
 
   <%= stylesheet_link_tag 'application' %>
@@ -17,10 +23,11 @@
   <link rel="shortcut icon" href="/icon.png">
   <link rel="apple-touch-icon-precomposed" href="/icon.png">
   <meta name="apple-mobile-web-app-title" content="estadologico">
-  <meta name="description" content="<%= current_page.data.title || "Estado Lógico - Diseño de páginas Web de alta calidad a bajo precio. Diseño Web, Diseño Gráfico, Desarollo de tiendas On-Line. Granada, Andalucía" %>">
+  <meta name="description" content="<%= current_page.data.title || "Estado Lógico - Diseño de páginas Web de alta calidad a bajo precio en Granada" %>">
 
 </head>
 <body>
+<%= analytics_code 'UA-34694189-6', 'estadologico.com' %>
 
 <div class="content  one-whole  desk-three-quarters">
 
@@ -51,5 +58,15 @@
 
 
 </div>
+<script type="text/javascript">
+    // When ready...
+    window.addEventListener("load",function() {
+        // Set a timeout...
+        setTimeout(function(){
+            // Hide the address bar!
+            window.scrollTo(0, 1);
+        }, 0);
+    });
+</script>
 </body>
 </html>
