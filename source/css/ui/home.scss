@@ -4,46 +4,58 @@
 
 @import "inuit.css/generic/_mixins.scss";
 
-.home--cover{
-  width: 100%;
-  height: 372px;
-  background: image-url('tranvia-estadologico.jpg') center center no-repeat;
+html.index .page-body{
+  background-color: $brand-color-2;
+}
 
-  @include media-query('palm'){ background-size:  auto 100%; }
-  @include media-query('desk-wide'){ background-size:  100% auto; }
+.home--info{
+  background: image-url('orange-bg.jpg') center center no-repeat;
+  background-size: auto 100%;
+  height: 418px;
+  padding: 0 10%;
+
+  h2{
+    margin-bottom: .2em;
+
+    color: #ffffff;
+    font-family: $brand-face;
+    font-size: $h1-size;
+    line-height: 0.9em;
+    font-weight: 400;
+  }
+
+  .home--slogan {
+    margin-bottom: .2em;
+
+    font-family: $brand-face;
+    font-size: $h3-size;
+    font-weight: 400;
+    font-style: italic;
+    color: #DC7415;
+  }
+
+  .btn{
+    font-family: $brand-face;
+    line-height: 0.9em;
+    margin-bottom: .2em;
+    font-weight: 400;
+
+    padding: 0.4em .8em;
+    font-size: .8em;
+    color: #FFF;
+    background-color: $brand-color-2;
+    text-decoration: none;
+    &:hover{
+      background-color: darken($brand-color-2, 9%);
+    }
+  }
 }
 
 .home--cover{
-  .home--cover--info{
-    background-color: rgba(255,255,255,.5);
-    padding: 5% 7% 5% 7%;
+  height: 418px;
+  margin: 0;
+  background: image-url('tranvia-estadologico.jpg') center center no-repeat;
+  background-size: auto 100%;
+  strong{display: none;}
 
-    h2,
-    .btn{
-      font-family: $brand-face;
-      line-height: 0.9em;
-      margin-bottom: .2em;
-      font-weight: 400;
-    }
-
-    .home--slogan {
-      margin-bottom: .2em;
-
-      font-family: $brand-face;
-      font-weight: 400;
-      font-style: italic;
-      color: #DC7415;
-    }
-
-    .btn{
-      padding: 0.4em .8em;
-      font-size: .8em;
-      color: #FFF;
-      background-color: $brand-color-2;
-      text-decoration: none;
-      &:hover{
-        background-color: darken($brand-color-2, 9%);
-      }
-    }
-  }
 }

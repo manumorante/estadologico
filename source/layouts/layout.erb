@@ -32,7 +32,8 @@
 <div class="content  one-whole  desk-three-quarters">
 
   <header class="page--header">
-    <h1><%= link_to 'Estado Lógico', '/' %></h1>
+    <%= image_tag('estado-logico-logo-white.png', :alt => 'Estado Lógico', :class => 'page-logo') %>
+    <h1><%= link_to 'Estado Lógico', '/', :title => 'Ir al inicio' %></h1>
     <h2>Desarrollo web</h2>
   </header>
 
@@ -46,9 +47,9 @@
 
     <nav>
       <ul>
-        <li><%= link_to 'Portafolio', 'portafolio.html' %></li>
-        <li><%= link_to 'Juegos', 'juegos.html' %></li>
-        <li><%= link_to 'Contacto', 'contacto.html' %></li>
+        <li><%= link_to 'Portafolio', 'portafolio.html', :title => 'Galería de trabajos realizados' %></li>
+        <li><%= link_to 'Juegos', 'juegos.html', :title => 'Algunos juegos clásicos en Flash' %></li>
+        <li><%= link_to 'Contacto', 'contacto.html', :title => 'Eh! contacta conmigo! ;-)' %></li>
       </ul>
     </nav>
 

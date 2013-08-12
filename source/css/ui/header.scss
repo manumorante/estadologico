@@ -5,15 +5,33 @@
 
 .page--header {
   width: 100%;
-  height: 131px;
-  @include media-query('palm'){ height: 67px; }
+  height: auto;
 
-  padding: 1.3em 1.5em;
-  @include media-query('palm'){ padding: 1.2em 1.2em; }
+  padding: 4% 0 2.5% 0;
 
-  background: image-url('header.png') repeat-x top center;
-  background-size: 100% 131px;
-  text-align: center;
+  @include media-query('palm'){
+    padding: 9em 1.2em;
+    text-align: center;
+    height: 418px; // Safari Browser max-height visible
+  }
+
+  @include media-query('lap'){
+    padding: 4% 0 2.5% 3%;
+  }
+
+
+  .page-logo{
+    display: inline-block;
+    width: 37px;
+    vertical-align: middle;
+    margin: 0 7px 9px 0;
+
+    @include media-query('palm'){
+      width: 60px;
+      margin-bottom: 18px;
+      margin: 0 0 18px 0;
+    }
+  }
 
   h1,
   h2 {
@@ -31,14 +49,18 @@
   }
 
   h1 a {
+    margin-right: .5em;
+    font-size: $h2-size;
     color: #FFFFFF;
     word-spacing: -0.29em;
-    margin-right: .5em;
-    @include media-query('palm'){ margin-right: 0; }
     text-decoration: none;
+
+    @include media-query('palm'){
+      margin-right: 0;
+    }
   }
   h2 {
-    color: $brand-color-3;
+    color: rgba(255,255,255,.4);
     word-spacing: -0.1em;
     white-space: nowrap;
     font-size: $h3-size;
