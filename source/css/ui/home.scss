@@ -14,6 +14,10 @@ html.index .page-body{
   height: 418px;
   padding: 0 10%;
 
+  @include media-query('palm'){
+    height: 100%;
+  }
+
   h2{
     margin-bottom: .2em;
 
