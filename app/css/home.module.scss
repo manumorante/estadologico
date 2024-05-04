@@ -1,0 +1,63 @@
+//======
+// HOME
+//======
+
+@import "vars.scss";
+@import "./inuit.css/generic/mixins.scss";
+
+.info {
+  display: table;
+  width: 100%;
+  height: 418px;
+  padding: 0 10%;
+
+  background: url("/img/orange-bg.jpg") center center no-repeat;
+  background-size: auto 100%;
+
+  @include media-query("palm") {
+    height: 100%;
+  }
+
+  h2 {
+    margin-bottom: 0.2em;
+
+    color: #ffffff;
+    font-family: $brand-face;
+    font-size: $h1-size;
+    line-height: 0.9em;
+    font-weight: 400;
+  }
+}
+
+.footer {
+  padding: 30px;
+  background-color: #000;
+
+  color: #999;
+  font-size: 12px;
+  font-style: italic;
+
+  @include media-query("palm") {
+    display: none;
+  }
+}
+
+.slogan {
+  margin-bottom: 0.2em;
+
+  font-family: $brand-face;
+  font-size: $h3-size;
+  font-weight: 400;
+  font-style: italic;
+  color: #dc7415;
+}
+
+.cover {
+  height: 418px;
+  margin: 0;
+  background: url("/img/tranvia-estadologico.jpg") center center no-repeat;
+  background-size: auto 100%;
+  strong {
+    display: none;
+  }
+}

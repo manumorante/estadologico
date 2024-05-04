@@ -129,59 +129,41 @@
 /**
  * Generic utility styles etc.
  */
-@import "defaults";
-@import "generic/mixins";
-@import "generic/normalize";
-@import "generic/reset";
-@import "generic/shared";
-
-/**
- * Base styles; unclassed HTML elements etc.
- */
-@import "base/main";
-@import "base/paragraphs";
-@import "base/smallprint";
-@import "base/quotes";
-@import "base/code";
-@import "base/images";
-@import "base/lists";
-@import "base/tables";
-@import "base/forms";
+@import "defaults.scss";
+@import "generic/mixins.scss";
 
 /**
  * Objects and abstractions
  */
-@import "objects/grids";
-@import "objects/flexbox";
-@import "objects/columns";
-@import "objects/nav";
-@import "objects/options";
-@import "objects/pagination";
-@import "objects/breadcrumb";
-@import "objects/media";
-@import "objects/marginalia";
-@import "objects/island";
-@import "objects/block-list";
-@import "objects/matrix";
-@import "objects/split";
-@import "objects/this-or-this";
-@import "objects/link-complex";
-@import "objects/flyout";
-@import "objects/arrows";
-@import "objects/sprite";
-@import "objects/icon-text";
-@import "objects/beautons";
-@import "objects/lozenges";
-@import "objects/rules";
-@import "objects/stats";
-@import "objects/greybox";
+@import "objects/grids.scss";
+@import "objects/flexbox.scss";
+@import "objects/columns.scss";
+@import "objects/nav.scss";
+@import "objects/options.scss";
+@import "objects/pagination.scss";
+@import "objects/breadcrumb.scss";
+@import "objects/media.scss";
+@import "objects/marginalia.scss";
+@import "objects/block-list.scss";
+@import "objects/matrix.scss";
+@import "objects/split.scss";
+@import "objects/this-or-this.scss";
+@import "objects/link-complex.scss";
+@import "objects/flyout.scss";
+@import "objects/arrows.scss";
+@import "objects/sprite.scss";
+@import "objects/icon-text.scss";
+@import "objects/beautons.scss";
+@import "objects/lozenges.scss";
+@import "objects/rules.scss";
+@import "objects/stats.scss";
+@import "objects/greybox.scss";
 
 /**
  * Style trumps; helper and brand classes
  */
-@import "generic/widths";
-@import "generic/push";
-@import "generic/pull";
-@import "generic/brand";
-@import "generic/helper";
-@import "generic/debug";
+@import "generic/widths.scss";
+@import "generic/push.scss";
+@import "generic/pull.scss";
+@import "generic/brand.scss";
+@import "generic/helper.scss";

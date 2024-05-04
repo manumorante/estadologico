@@ -1,0 +1,73 @@
+@import "./vars.scss";
+@import "./inuit.css/generic/mixins.scss";
+
+// =========
+// HEADER
+// =========
+
+.pageHeader {
+  width: 100%;
+  height: auto;
+
+  padding: 4% 0 2.5% 0;
+
+  @include media-query("palm") {
+    padding: 9em 1.2em;
+    text-align: center;
+    height: 100%;
+    max-height: 568px;
+  }
+
+  @include media-query("lap") {
+    padding: 4% 0 2.5% 3%;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 37px;
+  vertical-align: middle;
+  margin: 0 7px 9px 0;
+
+  @include media-query("palm") {
+    width: 60px;
+    margin-bottom: 18px;
+    margin: 0 0 18px 0;
+  }
+}
+
+.h1 {
+  display: inline;
+  margin-right: 0.5em;
+
+  @include media-query("palm") {
+    display: block;
+  }
+
+  a {
+    font-size: $h3-size;
+    color: #ffffff;
+    text-decoration: none;
+
+    @include media-query("palm") {
+      margin-right: 0;
+    }
+  }
+}
+
+.h2 {
+  display: inline;
+  font-size: $h4-size;
+  color: rgba(255, 255, 255, 0.4);
+  word-spacing: -0.1em;
+  white-space: nowrap;
+
+  @include media-query("palm") {
+    display: block;
+  }
+
+
+  @include media-query("palm") {
+    font-size: $h4-size;
+  }
+}
