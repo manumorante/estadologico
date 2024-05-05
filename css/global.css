@@ -16,67 +16,12 @@ h3,
 h4,
 h5,
 h6,
-hgroup,
-ul,
-ol,
-dl,
-blockquote,
-p,
-address,
-table,
-fieldset,
-figure,
-pre,
-.media {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+p {
+  margin: 0;
 }
 
-/*
- * Correct `block` display not defined in IE 8/9.
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-/*
-  * Correct `inline-block` display not defined in IE 8/9.
-  */
-
-audio,
-canvas,
-video {
-  display: inline-block;
-}
-
-/*
-  * Prevent modern browsers from displaying `audio` without controls.
-  * Remove excess height in iOS 5 devices.
-  */
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/*
-  * Address styling not present in IE 8/9.
-  */
-
-[hidden] {
-  display: none;
+p ~ p {
+  margin-top: 1em;
 }
 
 /* ==========================================================================
@@ -93,17 +38,12 @@ audio:not([controls]) {
   vertical-align: middle;
 }
 
-/*
-  * 2. Prevent iOS text size adjust after orientation change, without disabling
-  *    user zoom.
-  */
-
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
-  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
-  line-height: 18px;
 }
 
 body {

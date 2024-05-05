@@ -1,0 +1,56 @@
+@import "@/css/vars.scss";
+
+.juegos {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 32px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block: 32px;
+}
+
+.title {
+  color: $brand-color;
+  font-family: $brand-face;
+  font-size: $h2-size;
+  line-height: 1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gamelist {
+  padding: 24px;
+
+  a {
+    display: block;
+    padding: 4px 6px;
+    text-decoration: none;
+    color: #c66f12;
+
+    &:hover {
+      color: #000000;
+      background-color: #f3f1e9;
+    }
+  }
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}

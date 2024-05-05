@@ -1,0 +1,21 @@
+@import "@/css/vars.scss";
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 32px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block: 32px;
+}
+
+.title {
+  color: $brand-color;
+  font-family: $brand-face;
+  font-size: $h2-size;
+  line-height: 1;
+}

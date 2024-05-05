@@ -2,15 +2,8 @@
 // MAIN
 // ======
 
-@import "./vars.scss";
-@import "./inuit.css/generic/mixins.scss";
-
-.page-title {
-  color: $brand-color;
-  padding-bottom: 10px;
-  font-family: $brand-face;
-  font-weight: normal;
-}
+@import "@/css/vars.scss";
+@import "@/css/inuit.css/generic/mixins.scss";
 
 .titulo {
   margin-bottom: 10px;
@@ -83,61 +76,6 @@
 
 .block--padding {
   padding: $base-spacing-unit;
-}
-
-.list-games {
-  margin: 0 0 1.5em 0;
-  padding: 0;
-  list-style-type: none;
-
-  a {
-    text-decoration: none;
-    color: #c66f12;
-
-    &:hover {
-      color: #000000;
-      background-color: #f3f1e9;
-    }
-  }
-
-  li {
-    margin-bottom: 2px;
-  }
-}
-
-#sonic {
-  float: left;
-}
-
-#cuerpo-juego {
-  float: left;
-  width: 677px;
-  padding: 25px;
-
-  img {
-    padding: 6px;
-  }
-}
-
-#descripcion-juego {
-  padding: 10px;
-  background-color: #f8f8f8;
-  margin: 8px;
-  width: 300px;
-  border: 1px dashed #999999;
-}
-
-#base {
-  width: 674px;
-  clear: both;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-
-  p {
-    font-style: italic;
-    color: #333333;
-  }
 }
 
 #mascosas {

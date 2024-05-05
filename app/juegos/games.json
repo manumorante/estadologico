@@ -1,0 +1,65 @@
+[
+  {
+    "id": "blue-space",
+    "title": "Blue Space",
+    "description": "Controla tu nave por la pantalla esquivando meteoritos. Ayúdate del Satelite disparándole para que despliegue un escudo protector.",
+    "controls": "Usa las teclas de dirección para mover la nave.<br />Tecla <b>Shift</b> para disparar el láser.<br />Techa <b>Alt</b> para usar el turbo.",
+    "images": 2
+  },
+  {
+    "id": "columna",
+    "title": "Columna",
+    "description": "Estás muy enfadado y tienes una bonita, a la vez que inocente, columna a la que puedes golpear con toda tu fuerza.",
+    "controls": "Pulsa Espacio y mantenlo pulsado. Suéltalo para lanzar un golpe.",
+    "images": 1
+  },
+  {
+    "id": "diana",
+    "title": "Diana",
+    "description": "Este es un juego simple en que debes acertar a las dianas (luces rojas) que van saliendo de detrás de las columnas.",
+    "controls": "Usa el ratón para apuntar y haz click para disparar.",
+    "images": 1
+  },
+  {
+    "id": "newton",
+    "title": "Newton",
+    "description": "Tienes una cestita que debes usar para ir recogiendo las manzanas que te caen de los árboles.",
+    "controls": "Usa las teclas de dirección izquierda y derecha para moverte. Pulsa la tecla Arriba par abrir la cesta y así coger las manzanas.",
+    "images": 2
+  },
+  {
+    "id": "perfect-plato",
+    "title": "Perfect Plato",
+    "description": "Dispara a los platos para ganar puntos. No le dispares a los pájaros, pobrecitos ...",
+    "controls": "Usa el ratón para apuntar y haz Click para disparar.",
+    "images": 2
+  },
+  {
+    "id": "ping-pong",
+    "title": "Ping-Pong",
+    "description": "Una versión del pong con ajuste de velocidad.",
+    "controls": "<p><strong>Jugador 1 &raquo;</strong></p><p>Arriba / Abajo (mover)</p><p>Izquierda / Derecha (velocidad)<br /></p><p><strong>Jugador 2 &raquo;</strong><br />W /  S (mover)</p><p>A / D (velocidad)</p>",
+    "images": 2
+  },
+  {
+    "id": "r-type",
+    "title": "R-Type Contribute",
+    "description": "De nuevo eres el piloto de la nave más famosa de los videojuegos clásicos. ¡Hazte valer!",
+    "controls": "Usa las teclas de dirección para moverte.<br/> Pulsa espacio para disparar el láser y mantenlo pulsado para disparar un a carga <b>Super-Laser</b>. Con la tecla <strong>(A)</strong> harás aparecer enemigos.",
+    "images": 1
+  },
+  {
+    "id": "tennis",
+    "title": "Tennis",
+    "description": "Enfrentate a un partido de tennis de entranamiento contra una maquina. Fácil.",
+    "controls": "Usa el ratón para controlar la raqueta y haz click para golpear la pelota.",
+    "images": 2
+  },
+  {
+    "id": "tiro-al-plato",
+    "title": "Tiro al Plato",
+    "description": "Dispara a los platos que van saliendo por la parte inferior de la pantalla",
+    "controls": "Usa el ratón para apuntar y haz click para disparar",
+    "images": 1
+  }
+]
