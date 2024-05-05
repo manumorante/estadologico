@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./styles.module.scss"
-import games from "./games.json"
+import games from "../../games.json"
 
 export default function Juego() {
   return (
