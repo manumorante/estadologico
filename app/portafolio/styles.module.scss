@@ -1,0 +1,16 @@
+// ===========
+// PORTFOLIO
+// ===========
+
+@import "@/css/vars.scss";
+@import "@/css/inuit.css/generic/mixins.scss";
+
+.portfolio {
+  padding: 4%;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 2%;
+}

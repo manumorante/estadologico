@@ -1,7 +1,7 @@
-import "./css/global.css"
-import main from "./css/main.module.scss"
-import Header from "@/app/components/Header"
-import Footer from "@/app/components/Footer"
+import "@/css/global.css"
+import main from "@/css/main.module.scss"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export const metadata = {
   title: "Estado Lógico by Manu Morante",

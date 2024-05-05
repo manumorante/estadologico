@@ -1,4 +1,4 @@
-import styles from "../css/footer.module.scss"
+import styles from "@/css/footer.module.scss"
 import Link from "next/link"
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -7,17 +7,17 @@ export default function Footer() {
       <nav>
         <ul>
           <li>
-            <Link href="portafolio.html" title="Galería de trabajos realizados">
+            <Link href="/portafolio" title="Galería de trabajos realizados">
               Portafolio
             </Link>
           </li>
           <li>
-            <Link href="juegos.html" title="Algunos juegos clásicos en Flash">
+            <Link href="/juegos" title="Algunos juegos clásicos en Flash">
               Juegos
             </Link>
           </li>
           <li>
-            <Link href="contacto.html" title="Eh! contacta conmigo! ;-)">
+            <Link href="/contacto" title="Eh! contacta conmigo! ;-)">
               Contacto
             </Link>
           </li>
