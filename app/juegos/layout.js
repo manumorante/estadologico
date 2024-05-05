@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./styles.module.scss"
-import games from "./games.json"
 
 export default function Juegos({ children }) {
   return (
@@ -16,14 +15,6 @@ export default function Juegos({ children }) {
       </Link>
 
       {children}
-
-      <div className={styles.gamelist}>
-        <nav>
-          {games.map(({ id, title }) => (
-            <Link href={`/juegos/${id}`}>{title}</Link>
-          ))}
-        </nav>
-      </div>
     </div>
   )
 }

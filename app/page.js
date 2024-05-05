@@ -13,7 +13,7 @@ export default function Home() {
           <p className={styles.slogan}>Los tiempos cambian...</p>
 
           <Link
-            href="portafolio.html"
+            href="/portafolio"
             title="Galería de trabajos realizados"
             className="button"
           >

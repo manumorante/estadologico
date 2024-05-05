@@ -1,3 +1,4 @@
+import Link from "next/link"
 import games from "../games.json"
 import styles from "../styles.module.scss"
 
@@ -11,7 +12,9 @@ export default function Juego({ params }) {
 
   return (
     <div className={styles.body}>
-      <div className={styles.title}>{game.title}</div>
+      <div className={styles.title}>
+        <Link href="/juegos">Juegos</Link> / <strong>{game.title}</strong>
+      </div>
 
       <div className={styles.images}>
         {Array.from({ length: game.images }).map((_, i) => (

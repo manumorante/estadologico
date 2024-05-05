@@ -2,7 +2,7 @@
 
 .juegos {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr 5fr;
   gap: 32px;
 }
 
@@ -14,10 +14,18 @@
 }
 
 .title {
-  color: $brand-color;
   font-family: $brand-face;
   font-size: $h2-size;
   line-height: 1;
+
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  strong {
+    color: $brand-color;
+  }
 }
 
 .info {
@@ -43,9 +51,17 @@
 }
 
 .images {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 24px;
+
+  a {
+    color: #7f7f7f;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $brand-color;
+  }
 }
 
 .image {
