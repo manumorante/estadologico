@@ -1,3 +1,29 @@
+$global-border-box: true;
+$base-font-size: 16px !default;
+$base-line-height: 24px !default;
+$brand-round: 4px !default;
+$responsive: true;
+$lap-start: 481px;
+$desk-start: 940px;
+$giga-size: 96px !default;
+$mega-size: 72px !default;
+$kilo-size: 48px !default;
+$h1-size: 36px !default;
+$h2-size: 30px !default;
+$h3-size: 24px !default;
+$h4-size: 20px !default;
+$h5-size: 16px !default;
+$h6-size: 14px !default;
+$milli-size: 12px !default;
+$micro-size: 10px !default;
+$brand-color: #cc8211 !default;
+$brand-color-2: #2a3c50 !default;
+$brand-color-3: #c1ab7a !default;
+$brand-face: "Lucida Grande", Arial, Helvetica, sans-serif !default;
+$base-spacing-unit: $base-line-height !default;
+$half-spacing-unit: $base-spacing-unit / 2 !default;
+$line-height-ratio: $base-line-height / $base-font-size;
+
 /*------------------------------------*\
     $MIXINS
 \*------------------------------------*/
@@ -45,43 +71,6 @@
   -ms-#{$property}: $value;
   -o-#{$property}: $value;
   #{$property}: $value;
-}
-
-/**
- * Create CSS keyframe animations for all vendors in one go, e.g.:
- *
-   .foo{
-       @include vendor(animation, shrink 3s);
-   }
-
-   @include keyframe(shrink){
-       from{
-           font-size:5em;
-       }
-   }
- *
- * Courtesy of @integralist: twitter.com/integralist/status/260484115315437569
- */
-@mixin keyframe($animation-name) {
-  @-webkit-keyframes $animation-name {
-    @content;
-  }
-
-  @-moz-keyframes $animation-name {
-    @content;
-  }
-
-  @-ms-keyframes $animation-name {
-    @content;
-  }
-
-  @-o-keyframes $animation-name {
-    @content;
-  }
-
-  @keyframes $animation-name {
-    @content;
-  }
 }
 
 /**
