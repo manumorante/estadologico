@@ -1,4 +1,4 @@
-import styles from "@/css/footer.module.scss"
+import styles from "./styles.module.scss"
 import Link from "next/link"
 export default function Footer() {
   const currentYear = new Date().getFullYear()

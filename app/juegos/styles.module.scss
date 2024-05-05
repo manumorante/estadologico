@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 32px;
+  padding-right: 48px;
 }
 
 .body {
@@ -52,8 +53,8 @@
 
 .images {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 32px;
 
   a {
     color: #7f7f7f;

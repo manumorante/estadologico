@@ -1,4 +1,4 @@
-import styles from "@/css/home.module.scss"
+import styles from "./styles.module.scss"
 import Link from "next/link"
 export default function Home() {
   return (

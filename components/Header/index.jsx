@@ -1,4 +1,4 @@
-import styles from "../css/header.module.scss"
+import styles from "./styles.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 

@@ -1,15 +1,13 @@
-//======
-// HOME
-//======
-
-@import "vars.scss";
-@import "./inuit.css/generic/mixins.scss";
+@import "@/css/vars.scss";
+@import "@/css/inuit.css/mixins.scss";
 
 .info {
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
   width: 100%;
-  height: 418px;
-  padding: 0 10%;
+  min-height: 418px;
 
   background: url("/img/orange-bg.jpg") center center no-repeat;
   background-size: auto 100%;

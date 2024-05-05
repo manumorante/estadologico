@@ -1,9 +1,5 @@
-@import "./vars.scss";
-@import "./inuit.css/generic/mixins.scss";
-
-// =========
-// HEADER
-// =========
+@import "@/css/vars.scss";
+@import "@/css/inuit.css/mixins.scss";
 
 .pageHeader {
   width: 100%;
@@ -65,7 +61,6 @@
   @include media-query("palm") {
     display: block;
   }
-
 
   @include media-query("palm") {
     font-size: $h4-size;
