@@ -30,10 +30,6 @@
   width: 100%;
 }
 
-.flexbox__item {
-  display: table-cell;
-  vertical-align: middle;
-}
 
 /**
  * Add/remove floats

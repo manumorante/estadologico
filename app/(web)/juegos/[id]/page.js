@@ -1,6 +1,7 @@
 import games from "../../../games.json"
 import styles from "../styles.module.scss"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Juego({ params }) {
   const { id } = params
@@ -31,8 +32,8 @@ export default function Juego({ params }) {
         <div dangerouslySetInnerHTML={{ __html: game.description }} />
 
         <div>
-          <Link target="blank" href={`/full/${id}`} className="button">
-            Jugar
+          <Link target="blank" href={`/full/${id}`} >
+            <Image src="/img/jugar.gif" width={133} height={60} alt="Jugar" />
           </Link>
         </div>
 

@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss"
 import Image from "next/image"
 import Link from "next/link"
+import Menu from "../Menu"
 
 export default function Header() {
   return (
@@ -18,6 +19,8 @@ export default function Header() {
         </Link>
       </h1>
       <h2 className={styles.h2}>Desarrollo web</h2>
+
+      <Menu />
     </header>
   )
 }

@@ -1,11 +1,13 @@
 import styles from "./styles.module.scss"
 import Link from "next/link"
+import Image from "next/image"
+
 export default function Home() {
   return (
     <>
       <div className={styles.info}>
-        <div className="flexbox__item">
-          <h2 className="home__title">
+        <div className={styles.text}>
+          <h2>
             Servicios de <strong>Diseño Web</strong> y{" "}
             <strong>Programación</strong>.
           </h2>
@@ -20,6 +22,14 @@ export default function Home() {
             Ver portafolio
           </Link>
         </div>
+
+        <Image
+          className={styles.cover}
+          src="/img/tranvia.jpg"
+          width={1800}
+          height={836}
+          alt="Tranvía foto por Manu Morante"
+        />
       </div>
 
       <div className={styles.footer}>

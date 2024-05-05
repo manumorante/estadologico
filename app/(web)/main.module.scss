@@ -12,11 +12,6 @@
 
 .pageBody {
   background-color: #ffffff;
-  @include cf;
-
-  @include media-query("palm") {
-    min-height: 568px;
-  }
 }
 
 .content {
@@ -26,72 +21,5 @@
 
   @include media-query("desk") {
     width: 75%;
-  }
-}
-
-#menu {
-  width: 728px;
-  padding-top: 5px;
-  padding-right: 3px;
-  padding-bottom: 3px;
-  padding-left: 3px;
-  background-color: #a93f15;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #923512;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #cd4b1b;
-
-  li {
-    display: inline;
-  }
-  a {
-    text-decoration: none;
-    color: #b1cada;
-    font-weight: normal;
-    font-family: Tahoma;
-    background-color: #32445a;
-    margin-right: 4px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 7px;
-    padding-left: 7px;
-  }
-  a:hover {
-    background-color: #496485;
-    color: #ffffff;
-  }
-}
-
-// Helpers
-.izquierda {
-  float: left;
-}
-
-.derecha {
-  float: right;
-}
-
-.block--padding {
-  padding: $base-spacing-unit;
-}
-
-#mascosas {
-  float: left;
-  width: 220px;
-  padding: 25px;
-  background-color: #df710f;
-  text-align: center;
-
-  a {
-    font-weight: normal;
-    color: #eaeaea;
-    text-decoration: none;
-  }
-
-  strong {
-    font-weight: bold;
-    color: #f7f7f7;
   }
 }

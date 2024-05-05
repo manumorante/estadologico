@@ -6,26 +6,10 @@
   padding: 1.5em;
   text-align: center;
   font-size: $h6-size;
-  border-top: 0.3em solid #6f3802;
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    margin: 0;
-    display: inline;
-  }
-
-  a {
-    text-decoration: none;
-    color: #cc8211;
-    padding-inline: 8px;
-  }
+  border-top: 0.3em solid var(--brand-color);
 
   small {
     font-size: $h6-size;
-    color: darken($brand-color, 15%);
+    color: var(--brand-color);
   }
 }
